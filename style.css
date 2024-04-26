@@ -10,26 +10,20 @@ body {
 .left{
     float: left;
 }
-/* Header-Section */
-.header{
-    background-color: #f2f2f2;
+/* Menu-Section */
+.logo{
+    margin-left: 20px;
+    flex: 1;
 }
 .logo img{
-    width: 90px;
+    width: 100px;
 }
-.menu{
-    text-align: right;
+li.nav-item{
+    padding: 0 20px;
 }
-.menu ul{
-    display: inline-block;
-}
-.menu ul li{
-    display: inline-block;
-}
-.menu ul li a{
-    text-decoration: none;
-    padding: 0px 30px;
-    line-height: 80px;
+.nav-link{
+    color: #000;
+    font-size: 20px;
 }
 /* Banner-Section */
 .banner-section{
@@ -79,7 +73,7 @@ body {
 .banner-img img{
     width: 640px;
 }
-/* Body-Section */
+/* Service-Section */
 .body-section{
     padding: 40px 0px;
 }
@@ -115,7 +109,7 @@ body {
     text-decoration: none;
     color: black;
 }
-/* Becomr */
+/* Become your best self */
 .become{
     background-color: #e0e5eb;
     padding: 60px 30px;
@@ -132,7 +126,7 @@ body {
 .btn2{
     background-color: black;
     color: #fff;
-    padding: 10px 60px;
+    padding: 20px 60px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
@@ -221,10 +215,10 @@ body {
 .center-img{
     margin-top: -190px;
 }
-.practice1-content h3{
+.practice1-content1 h3{
     line-height: 38px;
 }
-.practice1-content p{
+.practice1-content1 p{
     line-height: 35px;
 }
 .practice1-img{
@@ -253,6 +247,9 @@ body {
 .pilates{
     padding: 20px 0px;
 }
+.box{
+    position: relative;
+}
 .pilates-content{
     background-color: #e0e5eb;
     padding: 50px 50px 60px 90px;
@@ -274,5 +271,101 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+.img7{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.img7 img{
+    width: 320px; 
+    height: 320px; 
+    border-radius: 50%;
+    border: 10px solid #ccd3db;
+}
+
+/* Contact */
+.contact{
+    padding: 70px 0;
+}
+.contact-content p{
+    padding: 20px 0;
+    line-height: 28px;
+    color: #767676;
+    font-size: 18px;
+}
+.contact-form input[type="email"]{
+    width: 600px;
+    height: 60px;
+    border: 2px solid #aa972c;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .3);
+}
+.contact-form input[type="email"]:focus{
+    box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .5);
+}
+.contact-form input[type="text"]{
+    width: 292px;
+    height: 60px;
+    border: 2px solid #aa972c;
+    border-radius: 10px;
+    margin-right: 15px;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .3);
+}
+.contact-form input[type="text"]:focus{
+    box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .5);
+}
+.contact-form input[type="number"]{
+    width: 292px;
+    height: 60px;
+    border: 2px solid #aa972c;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .3);
+}
+.contact-form input[type="number"]:focus{
+    box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .3);
+}
+.contact-form textarea{
+    border: 2px solid #aa972c;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .3);
+}
+.contact-form textarea:focus{
+    box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .3);
+}
+.contact-form input[type="submit"]{
+    background-color: #aa972c;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 80px;
+    font-size: 24px;
+    font-weight: 600;
+    transition: .3s;
+    border: 2px solid transparent;
+    box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .3);
+}
+input[type="submit"]:hover{
+    background-color: #fff;
+    color: #aa972c;
+    border: 2px solid #aa972c;
+}
+
+/* Footer */
+.footer p{
+    color: #767676;
+    font-size: 19px;
 }
 
